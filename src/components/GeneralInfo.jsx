@@ -20,7 +20,7 @@ function GeneralInfo() {
             <div className="flex flex-col items-start gap-2">
                 <h2 className="text-4xl">General Information</h2>
 
-                <form onSubmit={(handleSubmit)}>
+                <form onSubmit={(handleSubmit)} className="space-y-2">
                     <div className="flex gap-2 flex-col">
                         <input type="text" placeholder="First Name" onChange={(event) => setInputFirstName(event.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
                         <input type="text" placeholder="Last Name" onChange={(event) => setInputLastName(event.target.value)} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
