@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import GeneralInfo from './components/GeneralInfo.jsx'
+import General from './components/General.jsx'
 
 function App() {
 
     return (    
         <>
-            <GeneralInfo />
+            <General />
         </>
     )
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function GeneralInfo() {
+function General() {
     const [inputFirstName, setInputFirstName] = useState('');
     const [firstName, setFirstName] = useState('');
     const [inputLastName, setInputLastName] = useState('');
@@ -36,4 +36,4 @@ function GeneralInfo() {
     )
 };
 
-export default GeneralInfo;
+export default General;
