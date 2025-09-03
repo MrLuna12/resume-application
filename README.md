@@ -1,12 +1,39 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React CV builder where users can input and edit their general information, education, and work experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **General Information**: Add/edit name and email
+- **Education Section**: Add/edit school name, study program, and dates
+- **Work Experience**: Add/edit company, job title, description, and dates
+- **Edit/Display Toggle**: Switch between editing and viewing modes for each section
+- **Form Validation**: Basic form handling with controlled inputs
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (useState hook)
+- Vite (build tool)
+- Tailwind CSS (styling)
+
+## How It Works
+
+Each section has two modes:
+1. **Edit Mode**: Form with input fields and Save button
+2. **Display Mode**: Shows saved information with Edit button
+
+Data is managed using React state - no persistence between browser refreshes.
+
+## Key React Concepts Demonstrated
+
+- State management with `useState`
+- Controlled form components
+- Event handling (onSubmit, onChange)
+- Conditional rendering
+- Component organization
+
+## Setup
+
+```bash
+npm install
+npm run dev
